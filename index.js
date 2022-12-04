@@ -4,7 +4,6 @@ function Product(name, price, currency,discount) {
     this.currency = currency;
     this.discount = discount;
     };
-
     function MethodForDiscount() {
         this.showAllInfo = function () {
             console.log(`Product information : ${ this.name} ${this.price} ${this.currency}`);
